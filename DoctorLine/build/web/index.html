@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DoctorLine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+    </head>
+    <body background="doctor1.jpg" height="650px" width="1350px">
+        <marquee  bgcolor="4181F0" scrollamount="6" behaviour="alternate" direction="right"><h2>Welcome to DoctorLinde</h2></marquee>
+        <h3>Secretary Login</h3>
+        <div align="left" id="container">
+            <form name="form1" id="secretary" action="SecretaryValidation.jsp" method="post" >
+                ID:<br>
+             <input type="text" align="center" name="id"><br>
+                Username:<br>
+             <input type="text" align="center" name="sec_name"><br>
+                Password:<br>
+             <input type="password" align="center" name="sec_pass"><br>
+             <br>
+             <input type="submit" value="login">
+            </form>
+        </div>
+        <br>
+        <h3>Doctor Login</h3>
+         <div align="left">
+            <form name="form2" id="doctor" action="DoctorValidation.jsp" method="post" >
+                Username:<br>
+             <input type="text" align="center" name="doc_name"><br>
+             Password:<br>
+             <input type="password" align="center" name="doc_pass"><br>
+             <br>
+             <input type="submit" value="login">
+            </form>
+        </div>
+    </body>
+</html>
